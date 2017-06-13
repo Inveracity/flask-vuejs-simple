@@ -1,21 +1,32 @@
-# sessorium
+# flask-vuejs-simple
+A very basic flask app with a vue-cli generated frontend
 
-> home project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+### clone
+```
+λ git clone https://github.com/inveracity/flask-vuejs-simple
+λ cd flask-vuejs-simple
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Install dependencies
+```
+λ npm install
+```
+
+### Build
+```
+λ npm run build
+```
+
+### Run backend flask app in a separate terminal
+```
+λ python run.py
+```
+
+### Run frontend for handy autorefresh
+```
+λ npm run dev
+```
+
+# Things to note
+
+Look at the config/index.js file, it does a proxy thing so that it's easier to make api requests to the flask app when running in dev mode.
