@@ -3,6 +3,13 @@ A very basic flask app with a vue-cli generated frontend
 
 ![example](images/vuejs.gif)
 
+### Requirements
+
+- Nodejs 9.8.0
+- Python 3.6.4
+- npm 5.7.1
+
+
 ### clone
 ```
 λ git clone https://github.com/inveracity/flask-vuejs-simple
