@@ -5,9 +5,11 @@ A very basic flask app with a vue-cli generated frontend
 
 ### Requirements
 
-- Nodejs 9.8.0
-- Python 3.6.4
-- npm 5.7.1
+| software | version |
+|----------|:-------:|
+| nodejs   | 9.8.0   |
+| python   | 3.6.4   |
+| npm      | 5.7.1   |
 
 
 ### clone
@@ -16,7 +18,7 @@ A very basic flask app with a vue-cli generated frontend
 λ cd flask-vuejs-simple
 ```
 
-### Install dependencies
+### Install javascript dependencies
 ```
 λ npm install
 ```
@@ -24,6 +26,11 @@ A very basic flask app with a vue-cli generated frontend
 ### Build
 ```
 λ npm run build
+```
+
+### Install python requirements
+```
+λ pip install -r requirements.txt
 ```
 
 ### Run backend flask app in a separate terminal
