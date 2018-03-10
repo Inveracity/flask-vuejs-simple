@@ -1,6 +1,8 @@
 # flask-vuejs-simple
 A very basic flask app with a vue-cli generated frontend
 
+![example](images/vuejs.gif)
+
 ### clone
 ```
 λ git clone https://github.com/inveracity/flask-vuejs-simple
